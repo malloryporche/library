@@ -16,11 +16,11 @@ app.use(express.static('src/views'));
 //Express taking a request from the browser at the root and sending something back
 app.get('/', function(req, res){
 	res.send('Hello world!');
-})
+});
 
 app.get('/books', function(req, res){
 	res.send('Hello books!');
-})
+});
 
 //Creating instance of the express app and listen on a specific port
 app.listen(port, function(err){
