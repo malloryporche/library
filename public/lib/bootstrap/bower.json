@@ -16,7 +16,7 @@
   "moduleType": "globals",
   "main": [
     "less/bootstrap.less",
-    "dist/js/bootstrap.js"
+    "dist/js/bootstrap.js" 
   ],
   "ignore": [
     "/.*",
